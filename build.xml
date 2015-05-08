@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project name="ciTest" basedir="." default="dist">
+    <property name="build.dir" location="build"/>
+    <property name="jar.dir" location="target"/>
+    <property name="target.jar" location="${jar.dir}/ciTest.jar"/>
+
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${jar.dir}"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete file="${target.jar}"/>
+    </target>
+
+    <target depends="init" name="build">
+        <javac debug="true" debuglevel="source,lines,vars" destdir="${build.dir}" source="1.8" target="1.8"
+                includeAntRuntime="false">
+            <src path="."/>
+            <classpath>
+    		<fileset dir="lib">
+		        <include name="*.jar" />
+    		</fileset>            
+	    </classpath>
+        </javac>
+    </target>
+
+    <target depends="build" name="dist">
+        <copy todir="${build.dir}">
+            <fileset dir="." includes="**/*.xml"/>
+        </copy>
+        <jar destfile="${target.jar}" basedir="${build.dir}/" 
+                includes="org/**" excludes="**/test/*" />
+    </target>
+
+    <target name="test" depends="build" >
+        <mkdir dir="build/testReport"/>
+        <junit fork="yes" forkmode="once" printsummary="withOutAndErr" haltonerror="no" haltonfailure="no" maxmemory="256m">
+        <classpath>
+            <pathelement location="build"/>
+            <pathelement location="lib"/>
+        </classpath>
+        <jvmarg value="-Xms120M"/>
+        <jvmarg value="-Xmx356M"/>
+        <formatter type="xml"/>
+				<batchtest fork="yes" todir="build/cpiTestReport">
+					<fileset dir="test">
+						<include name="**/*Test.java"/>
+					</fileset>
+				</batchtest>
+			</junit>
+    </target>
+</project>
