@@ -16,7 +16,7 @@
     </target>
 
     <target depends="init" name="build">
-        <javac debug="true" debuglevel="source,lines,vars" destdir="${build.dir}" source="1.8" target="1.8"
+        <javac debug="true" debuglevel="source,lines,vars" destdir="${build.dir}" source="1.6" target="1.6"
                 includeAntRuntime="false">
             <src path="."/>
             <classpath>
@@ -44,8 +44,8 @@
         </classpath>
         <jvmarg value="-Xms120M"/>
         <jvmarg value="-Xmx356M"/>
-        <formatter type="xml"/>
-				<batchtest fork="yes" todir="build/cpiTestReport">
+        <formatter type="plain"/>
+				<batchtest fork="yes">
 					<fileset dir="test">
 						<include name="**/*Test.java"/>
 					</fileset>

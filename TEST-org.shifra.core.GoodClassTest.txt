@@ -1,0 +1,4 @@
+Testsuite: org.shifra.core.GoodClassTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.019 sec
+
+Testcase: testDoesStuff took 0.004 sec
