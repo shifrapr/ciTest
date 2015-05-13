@@ -40,7 +40,9 @@
         <junit fork="yes" forkmode="once" printsummary="withOutAndErr" haltonerror="no" haltonfailure="no" maxmemory="256m">
         <classpath>
             <pathelement location="build"/>
-            <pathelement location="lib"/>
+    		<fileset dir="lib">
+		        <include name="*.jar" />
+    		</fileset>   
         </classpath>
         <jvmarg value="-Xms120M"/>
         <jvmarg value="-Xmx356M"/>
