@@ -176,3 +176,9 @@ Jun 1, 2015 9:02:20 PM org.apache.catalina.startup.HostConfig checkResources
 INFO: Reloading context [/examples]
 Jun 1, 2015 9:02:21 PM org.apache.catalina.startup.HostConfig checkResources
 INFO: Reloading context [/host-manager]
+Jun 1, 2015 9:13:44 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-30080
+Jun 1, 2015 9:13:45 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jun 1, 2015 9:13:45 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-30080
