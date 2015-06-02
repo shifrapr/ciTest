@@ -3,6 +3,7 @@
 <project name="ciTest" basedir="." default="dist">
     <property name="build.dir" location="build"/>
     <property name="jar.dir" location="target"/>
+    <property name="tomcat.dir" location="apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/classes"/>
     <property name="target.jar" location="${jar.dir}/ciTest.jar"/>
 
     <target name="init">
@@ -17,41 +18,56 @@
 
     <target depends="init" name="build">
         <javac debug="true" debuglevel="source,lines,vars" destdir="${build.dir}" source="1.6" target="1.6"
-                includeAntRuntime="false">
+               includeAntRuntime="false">
             <src path="."/>
+            <exclude name="apache*/**"/>
+            <exclude name="fubar*/**"/>
             <classpath>
-    		<fileset dir="lib">
-		        <include name="*.jar" />
-    		</fileset>            
-	    </classpath>
+                <fileset dir="lib">
+                    <include name="*.jar"/>
+                </fileset>
+            </classpath>
+        </javac>
+        <!-- also the servlets to Tomcat -->
+        <javac debug="true" debuglevel="source,lines,vars" destdir="${tomcat.dir}" source="1.6" target="1.6"
+               includeAntRuntime="false">
+            <src path="src/org/shifra/core/servlets"/>
+            <exclude name="apache*/**"/>
+            <exclude name="fubar*/**"/>
+            <classpath>
+                <fileset dir="lib">
+                    <include name="*.jar"/>
+                </fileset>
+            </classpath>
         </javac>
     </target>
 
     <target depends="build" name="dist">
         <copy todir="${build.dir}">
-            <fileset dir="." includes="**/*.xml"/>
+            <fileset dir="." includes="**/*.xml" excludes="apache*"/>
         </copy>
-        <jar destfile="${target.jar}" basedir="${build.dir}/" 
-                includes="org/**" excludes="**/test/*" />
+        <jar destfile="${target.jar}" basedir="${build.dir}/"
+             includes="org/**" excludes="**/test/*"/>
     </target>
 
-    <target name="test" depends="build" >
+    <target name="test" depends="build">
         <mkdir dir="build/testReport"/>
-        <junit fork="yes" forkmode="once" printsummary="withOutAndErr" haltonerror="no" haltonfailure="no" maxmemory="256m">
-        <classpath>
-            <pathelement location="build"/>
-    		<fileset dir="lib">
-		        <include name="*.jar" />
-    		</fileset>   
-        </classpath>
-        <jvmarg value="-Xms120M"/>
-        <jvmarg value="-Xmx356M"/>
-        <formatter type="plain"/>
-				<batchtest fork="yes">
-					<fileset dir="test">
-						<include name="**/*Test.java"/>
-					</fileset>
-				</batchtest>
-			</junit>
+        <junit fork="yes" forkmode="once" printsummary="withOutAndErr" haltonerror="no" haltonfailure="no"
+               maxmemory="256m">
+            <classpath>
+                <pathelement location="build"/>
+                <fileset dir="lib">
+                    <include name="*.jar"/>
+                </fileset>
+            </classpath>
+            <jvmarg value="-Xms120M"/>
+            <jvmarg value="-Xmx356M"/>
+            <formatter type="plain"/>
+            <batchtest fork="yes">
+                <fileset dir="test">
+                    <include name="**/*Test.java"/>
+                </fileset>
+            </batchtest>
+        </junit>
     </target>
 </project>
