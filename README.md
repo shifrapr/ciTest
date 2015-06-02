@@ -8,6 +8,8 @@ ANT if needed:
 https://ant.apache.org/bindownload.cgi
 good idea to set ANT_HOME, edit in .profile
 
+then can
+ant build
 
 
 TOMCAT:
