@@ -61,9 +61,22 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "/servlet/org.shifra.core.servlets.JsonSnippetServlet", out, true);
       out.write("\n");
       out.write("\n");
-      out.write("More about servlet/jsp interaction at\n");
-      out.write("http://docs.oracle.com/cd/A87860_01/doc/java.817/a83726/basics4.htm#1013818\n");
+      out.write("More about servlet/jsp interaction at<br>\n");
+      out.write("http://docs.oracle.com/cd/A87860_01/doc/java.817/a83726/basics4.htm#1013818<br />\n");
       out.write("\n");
+      out.write("<h2>here is a table with alternating colored rows</h2>\n");
+      out.write("  <table class=\"colorTable\">\n");
+      out.write("    <tr>\n");
+      out.write("      <td>\n");
+      out.write("      First row\n");
+      out.write("      </td>\n");
+      out.write("    </tr>\n");
+      out.write("      <td>\n");
+      out.write("       Second row\n");
+      out.write("      </td>\n");
+      out.write("    <tr>\n");
+      out.write("    </tr>\n");
+      out.write("  </table>\n");
       out.write("</body>\n");
       out.write("</html>");
     } catch (Throwable t) {

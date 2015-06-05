@@ -1,2 +1,16 @@
 /* color for headings */
-h1, h2, h3 {color: red;}
+h1, h2, h3 {color: navy;}
+
+.colorTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+.colorTable td {
+    padding:7px; border: #555555 1px solid;
+}
+.colorTable tr {
+    background: #b8d1f3;
+}
+.colorTable tr:nth-child(odd) {
+    background: #dae5f4;
+}
