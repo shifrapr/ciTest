@@ -9,7 +9,10 @@ https://ant.apache.org/bindownload.cgi
 good idea to set ANT_HOME, edit in .profile
 
 then can
-ant build
+
+    ant build
+
+which puts everything into place within Tomcat.
 
 
 TOMCAT:
@@ -46,3 +49,10 @@ After starting up the default port set in conf/server.xml
 
 To stop:
     shutdown.sh
+
+JSP:
+to include:
+<jsp:include page="/servlet/org.shifra.core.servlets.JsonSnippetServlet" flush="true" />
+
+More about servlet/jsp interaction at
+http://docs.oracle.com/cd/A87860_01/doc/java.817/a83726/basics4.htm#1013818

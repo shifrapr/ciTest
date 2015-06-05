@@ -59,7 +59,7 @@
                 <include name="*.*"/>
             </fileset>
         </copy>
-        <!-- and jsp -->
+        <!-- and jsp/css -->
         <copy todir="${tomcat.jsp.dir}">
             <fileset dir="src/org/shifra/core/jsp">
                 <include name="*.*"/>

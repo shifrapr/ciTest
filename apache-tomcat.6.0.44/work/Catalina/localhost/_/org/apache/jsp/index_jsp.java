@@ -51,8 +51,19 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
 
       out.write("<html>\n");
+      out.write("  <head>\n");
+      out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"/style.css\" />\n");
+      out.write("  </head>\n");
       out.write("<body>\n");
-      out.write("hola\n");
+      out.write("<h1>hola.</h1>\n");
+      out.write("\n");
+      out.write("This is a snippet of something raw included from a servlet:\n");
+      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "/servlet/org.shifra.core.servlets.JsonSnippetServlet", out, true);
+      out.write("\n");
+      out.write("\n");
+      out.write("More about servlet/jsp interaction at\n");
+      out.write("http://docs.oracle.com/cd/A87860_01/doc/java.817/a83726/basics4.htm#1013818\n");
+      out.write("\n");
       out.write("</body>\n");
       out.write("</html>");
     } catch (Throwable t) {
