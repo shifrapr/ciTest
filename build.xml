@@ -20,6 +20,7 @@
     <target depends="init" name="build">
         <touch file="${tomcat.classes.dir}/testFile" mkdirs="true" verbose="true"/>
         <touch file="${tomcat.dir}/lib/testFile" mkdirs="true" verbose="true"/>
+        <touch file="${tomcat.dir}/resource/testFile" mkdirs="true" verbose="true"/>
         <javac debug="true" debuglevel="source,lines,vars" destdir="${build.dir}" source="1.6" target="1.6"
                includeAntRuntime="false">
             <src path="."/>
@@ -48,6 +49,12 @@
             <fileset dir="lib">
                 <include name="*.jar"/>
                 <exclude name="servletr*"/>
+            </fileset>
+        </copy>
+        <!-- and resources -->
+        <copy todir="${tomcat.dir}/resource">
+            <fileset dir="src/resource">
+                <include name="*.*"/>
             </fileset>
         </copy>
     </target>

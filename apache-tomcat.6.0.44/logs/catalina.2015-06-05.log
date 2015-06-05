@@ -124,3 +124,27 @@ Jun 5, 2015 2:36:41 PM org.apache.catalina.core.StandardContext reload
 INFO: Reloading Context with name [] has started
 Jun 5, 2015 2:36:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
 INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:50:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:50:44 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:53:14 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:53:14 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:56:04 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:56:05 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:56:25 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:56:25 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:56:45 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:56:45 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:57:25 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:57:25 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
