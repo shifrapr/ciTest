@@ -56,3 +56,5 @@ to include:
 
 More about servlet/jsp interaction at
 http://docs.oracle.com/cd/A87860_01/doc/java.817/a83726/basics4.htm#1013818
+
+JSTL: http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm

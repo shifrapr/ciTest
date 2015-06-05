@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class post_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -55,35 +55,20 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"/style.css\" />\n");
       out.write("  </head>\n");
       out.write("<body>\n");
-      out.write("<h1>hola</h1>\n");
-      out.write("\n");
-      out.write("This is a snippet of something raw included from a servlet:\n");
-      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "/servlet/org.shifra.core.servlets.JsonSnippetServlet", out, true);
-      out.write("\n");
+      out.write("<h1>hola, thanks.</h1>\n");
       out.write("\n");
       out.write("More about servlet/jsp interaction at<br>\n");
       out.write("http://docs.oracle.com/cd/A87860_01/doc/java.817/a83726/basics4.htm#1013818<br />\n");
       out.write("\n");
-      out.write("    <h2>Fill in two fields and submit:</h4>\n");
-      out.write("    <FORM action = \"/servlet/org.shifra.core.servlets.FormServlet\" method = \"POST\">\n");
-      out.write("        first field: <INPUT type=\"TEXT\" name=\"lineOne\"/>\n");
-      out.write("        <BR/>\n");
-      out.write("        second field: <INPUT type=\"TEXT\" name=\"lineTwo\"/>\n");
-      out.write("        <BR/>\n");
-      out.write("        <INPUT type=\"submit\" value=\"send!\"/>\n");
-      out.write("    </FORM>\n");
-
-String somethingToPass = "Arbitrary Passed thing";
-session.setAttribute("arbitraryPassedThing", somethingToPass);
-
-      out.write("\n");
-      out.write("<h2>here is a table with alternating colored rows that is not filled in yet</h2>\n");
+      out.write("<h2>here is a table with alternating colored rows that is now filled in:</h2>\n");
       out.write("\n");
       out.write("  <table class=\"colorTable\">\n");
       out.write("    <tr>\n");
       out.write("      <td>\n");
       out.write("      First row: ");
  session.getAttribute("passedBackOne"); 
+      out.write(' ');
+ request.getSession().getAttribute("arbitraryPassedThing"); 
       out.write("\n");
       out.write("      </td>\n");
       out.write("    </tr>\n");
@@ -95,6 +80,8 @@ session.setAttribute("arbitraryPassedThing", somethingToPass);
       out.write("    <tr>\n");
       out.write("    </tr>\n");
       out.write("  </table>\n");
+      out.write("\n");
+      out.write("Want to <a href=\"/index.jsp\">do it again?</a>\n");
       out.write("</body>\n");
       out.write("</html>");
     } catch (Throwable t) {

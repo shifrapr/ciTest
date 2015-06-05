@@ -799,3 +799,389 @@ java.io.FileNotFoundException: /Users/spridera/Documents/code/travisCiFromGithub
 	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
 	at java.lang.Thread.run(Thread.java:695)
+Jun 5, 2015 3:46:24 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 31 in the jsp file: /index.jsp
+Syntax error, insert ";" to complete Statement
+28:   <table class="colorTable">
+29:     <tr>
+30:       <td>
+31:       First row: <% session.getAttribute("passedBackOne") %>
+32:       </td>
+33:     </tr>
+34:       <td>
+
+
+An error occurred at line: 35 in the jsp file: /index.jsp
+Syntax error, insert ";" to complete Statement
+32:       </td>
+33:     </tr>
+34:       <td>
+35:        Second row: <% session.getAttribute("passedBackTwo") %>
+36:       </td>
+37:     <tr>
+38:     </tr>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:460)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:321)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+Jun 5, 2015 3:58:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.index.jsp as unavailable
+Jun 5, 2015 3:58:02 PM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@603b1d04
+ index.jsp
+java.lang.ClassNotFoundException: index.jsp
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1680)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1526)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1128)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:827)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+Jun 5, 2015 3:58:02 PM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/index.jsp
+javax.servlet.ServletException: Wrapper cannot find servlet class index.jsp or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1136)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:827)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: index.jsp
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1680)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1526)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1128)
+	... 17 more
+Jun 5, 2015 4:09:26 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+String cannot be resolved to a variable
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+Syntax error, insert ";" to complete Statement
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+String cannot be resolved to a variable
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+Syntax error, insert ";" to complete Statement
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 20 in the jsp file: /post.jsp
+String cannot be resolved to a variable
+17:       </td>
+18:     </tr>
+19:       <td>
+20:        Second row: <% (String) session.getAttribute("passedBackTwo"); %>
+21:       </td>
+22:     <tr>
+23:     </tr>
+
+
+An error occurred at line: 20 in the jsp file: /post.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+17:       </td>
+18:     </tr>
+19:       <td>
+20:        Second row: <% (String) session.getAttribute("passedBackTwo"); %>
+21:       </td>
+22:     <tr>
+23:     </tr>
+
+
+An error occurred at line: 20 in the jsp file: /post.jsp
+Syntax error, insert ";" to complete Statement
+17:       </td>
+18:     </tr>
+19:       <td>
+20:        Second row: <% (String) session.getAttribute("passedBackTwo"); %>
+21:       </td>
+22:     <tr>
+23:     </tr>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:460)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:321)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.shifra.core.servlets.FormServlet.doPost(FormServlet.java:35)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:643)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:404)
+	at org.apache.catalina.servlets.InvokerServlet.doPost(InvokerServlet.java:172)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:643)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+Jun 5, 2015 4:09:26 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet invoker threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+String cannot be resolved to a variable
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+Syntax error, insert ";" to complete Statement
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+String cannot be resolved to a variable
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 16 in the jsp file: /post.jsp
+Syntax error, insert ";" to complete Statement
+13:   <table class="colorTable">
+14:     <tr>
+15:       <td>
+16:       First row: <% (String) session.getAttribute("passedBackOne"); %> <% (String) request.getSession().getAttribute("arbitraryPassedThing"); %>
+17:       </td>
+18:     </tr>
+19:       <td>
+
+
+An error occurred at line: 20 in the jsp file: /post.jsp
+String cannot be resolved to a variable
+17:       </td>
+18:     </tr>
+19:       <td>
+20:        Second row: <% (String) session.getAttribute("passedBackTwo"); %>
+21:       </td>
+22:     <tr>
+23:     </tr>
+
+
+An error occurred at line: 20 in the jsp file: /post.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+17:       </td>
+18:     </tr>
+19:       <td>
+20:        Second row: <% (String) session.getAttribute("passedBackTwo"); %>
+21:       </td>
+22:     <tr>
+23:     </tr>
+
+
+An error occurred at line: 20 in the jsp file: /post.jsp
+Syntax error, insert ";" to complete Statement
+17:       </td>
+18:     </tr>
+19:       <td>
+20:        Second row: <% (String) session.getAttribute("passedBackTwo"); %>
+21:       </td>
+22:     <tr>
+23:     </tr>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:460)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:321)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.shifra.core.servlets.FormServlet.doPost(FormServlet.java:35)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:643)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:404)
+	at org.apache.catalina.servlets.InvokerServlet.doPost(InvokerServlet.java:172)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:643)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
