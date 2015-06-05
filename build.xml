@@ -3,7 +3,8 @@
 <project name="ciTest" basedir="." default="dist">
     <property name="build.dir" location="build"/>
     <property name="jar.dir" location="target"/>
-    <property name="tomcat.dir" location="apache-tomcat.6.0.44/webapps/ROOT/WEB-INF"/>
+    <property name="tomcat.jsp.dir" location="apache-tomcat.6.0.44/webapps/ROOT"/>
+    <property name="tomcat.dir" location="${tomcat.jsp.dir}/WEB-INF"/>
     <property name="tomcat.classes.dir" location="${tomcat.dir}/classes"/>
     <property name="target.jar" location="${jar.dir}/ciTest.jar"/>
 
@@ -18,6 +19,7 @@
     </target>
 
     <target depends="init" name="build">
+        <touch file="${tomcat.dir}/testFile" mkdirs="true" verbose="true"/>
         <touch file="${tomcat.classes.dir}/testFile" mkdirs="true" verbose="true"/>
         <touch file="${tomcat.dir}/lib/testFile" mkdirs="true" verbose="true"/>
         <touch file="${tomcat.dir}/resource/testFile" mkdirs="true" verbose="true"/>
@@ -54,6 +56,12 @@
         <!-- and resources -->
         <copy todir="${tomcat.dir}/resource">
             <fileset dir="src/resource">
+                <include name="*.*"/>
+            </fileset>
+        </copy>
+        <!-- and jsp -->
+        <copy todir="${tomcat.jsp.dir}">
+            <fileset dir="src/org/shifra/core/jsp">
                 <include name="*.*"/>
             </fileset>
         </copy>

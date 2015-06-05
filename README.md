@@ -14,7 +14,11 @@ ant build
 
 TOMCAT:
 
-after build, servlets in the servlet class will be at path like
+after build, jsps will be at path like
+
+http://localhost:30080/index.jsp
+
+servlets in the servlet class will be at path like
 
 http://localhost:30080/servlet/org.shifra.core.servlets.SimpleServlet
 

@@ -1,3 +1,5 @@
 build*
 TEST-*
 *.class
+*work/Catalina/localhost*
+
