@@ -3,7 +3,8 @@
 <project name="ciTest" basedir="." default="dist">
     <property name="build.dir" location="build"/>
     <property name="jar.dir" location="target"/>
-    <property name="tomcat.dir" location="apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/classes"/>
+    <property name="tomcat.dir" location="apache-tomcat.6.0.44/webapps/ROOT/WEB-INF"/>
+    <property name="tomcat.classes.dir" location="${tomcat.dir}/classes"/>
     <property name="target.jar" location="${jar.dir}/ciTest.jar"/>
 
     <target name="init">
@@ -17,7 +18,8 @@
     </target>
 
     <target depends="init" name="build">
-        <touch file="${tomcat.dir}/testFile" mkdirs="true" verbose="true"/>
+        <touch file="${tomcat.classes.dir}/testFile" mkdirs="true" verbose="true"/>
+        <touch file="${tomcat.dir}/lib/testFile" mkdirs="true" verbose="true"/>
         <javac debug="true" debuglevel="source,lines,vars" destdir="${build.dir}" source="1.6" target="1.6"
                includeAntRuntime="false">
             <src path="."/>
@@ -30,7 +32,7 @@
             </classpath>
         </javac>
         <!-- also the servlets to Tomcat -->
-        <javac debug="true" debuglevel="source,lines,vars" destdir="${tomcat.dir}" source="1.6" target="1.6"
+        <javac debug="true" debuglevel="source,lines,vars" destdir="${tomcat.classes.dir}" source="1.6" target="1.6"
                includeAntRuntime="false">
             <src path="src/org/shifra/core/servlets"/>
             <exclude name="apache*/**"/>
@@ -41,6 +43,13 @@
                 </fileset>
             </classpath>
         </javac>
+        <!-- and lib jars -->
+        <copy todir="${tomcat.dir}/lib">
+            <fileset dir="lib">
+                <include name="*.jar"/>
+                <exclude name="servletr*"/>
+            </fileset>
+        </copy>
     </target>
 
     <target depends="build" name="dist">

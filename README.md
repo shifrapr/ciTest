@@ -1,4 +1,4 @@
-make sure Java is on the path (1.6 is fine)
+make sure Java is on the path (1.6 is best because Tomcat 6 uses)
 
 
 

@@ -182,3 +182,129 @@ Jun 1, 2015 9:13:45 PM org.apache.catalina.core.StandardService stop
 INFO: Stopping service Catalina
 Jun 1, 2015 9:13:45 PM org.apache.coyote.http11.Http11Protocol destroy
 INFO: Stopping Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:18:21 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Jun 5, 2015 2:18:22 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:18:22 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1863 ms
+Jun 5, 2015 2:18:22 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jun 5, 2015 2:18:22 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.44
+Jun 5, 2015 2:18:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jun 5, 2015 2:18:23 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jun 5, 2015 2:18:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jun 5, 2015 2:18:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jun 5, 2015 2:18:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory orig_ROOT
+Jun 5, 2015 2:18:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jun 5, 2015 2:18:25 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:18:25 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:18:25 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:30009
+Jun 5, 2015 2:18:25 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/133  config=null
+Jun 5, 2015 2:18:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2734 ms
+Jun 5, 2015 2:23:35 PM org.apache.catalina.loader.WebappClassLoader modified
+SEVERE:     Resource '/WEB-INF/lib/servlet-api.jar' is missing
+Jun 5, 2015 2:23:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:23:53 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:23:54 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jun 5, 2015 2:23:54 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:23:59 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Jun 5, 2015 2:24:00 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:24:00 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1373 ms
+Jun 5, 2015 2:24:00 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jun 5, 2015 2:24:00 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.44
+Jun 5, 2015 2:24:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jun 5, 2015 2:24:01 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jun 5, 2015 2:24:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jun 5, 2015 2:24:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jun 5, 2015 2:24:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory orig_ROOT
+Jun 5, 2015 2:24:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jun 5, 2015 2:24:02 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:24:02 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:30009
+Jun 5, 2015 2:24:03 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/42  config=null
+Jun 5, 2015 2:24:03 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2518 ms
+Jun 5, 2015 2:27:00 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:27:01 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jun 5, 2015 2:27:01 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:27:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Jun 5, 2015 2:27:08 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:27:08 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1308 ms
+Jun 5, 2015 2:27:08 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jun 5, 2015 2:27:08 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.44
+Jun 5, 2015 2:27:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jun 5, 2015 2:27:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jun 5, 2015 2:27:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jun 5, 2015 2:27:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jun 5, 2015 2:27:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory orig_ROOT
+Jun 5, 2015 2:27:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jun 5, 2015 2:27:10 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-30080
+Jun 5, 2015 2:27:10 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:30009
+Jun 5, 2015 2:27:10 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/48  config=null
+Jun 5, 2015 2:27:10 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2309 ms
+Jun 5, 2015 2:27:30 PM org.apache.catalina.loader.WebappClassLoader modified
+INFO:     Additional JARs have been added
+Jun 5, 2015 2:27:30 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:27:30 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:32:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:32:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:33:11 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:33:11 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jun 5, 2015 2:36:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jun 5, 2015 2:36:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
