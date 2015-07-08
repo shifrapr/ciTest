@@ -59,3 +59,27 @@ http://docs.oracle.com/cd/A87860_01/doc/java.817/a83726/basics4.htm#1013818
 
 JSTL: http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm
 http://docs.oracle.com/javaee/5/tutorial/doc/bnakh.html
+
+
+
+solr:
+~/Documents/code/solr/solr-4.7.2/,
+can add more instances /Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/conf/Catalina/localhost/
+copy solr_example.
+
+when you start up can go to admin at
+
+http://localhost:30080/solr_example
+(or whatever the name of the solr instance is)
+
+can query the core (in example there are two of them) with http://localhost:30080/solr_example/core0/select?
+
+Query syntax: http://wiki.apache.org/solr/SolrQuerySyntax
+
+Curl: http://www.alphadevx.com/a/374-Running-Solr-queries-and-updates-via-curl
+
+SolrJ to read the data:
+http://wiki.apache.org/solr/Solrj#Reading_Data_from_Solr
+
+Tomcat Solr info at http://wiki.apache.org/solr/SolrTomcat
+JSON info at https://wiki.apache.org/solr/UpdateJSON
