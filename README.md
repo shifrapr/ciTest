@@ -10,10 +10,12 @@ good idea to set ANT_HOME, edit in .profile
 
 then can
 
-    ant build
+    ant dist
 
 which puts everything into place within Tomcat.
+(just ant build doesn't put classes in place)
 
+bounce tomcat when adding new classes.
 
 TOMCAT:
 

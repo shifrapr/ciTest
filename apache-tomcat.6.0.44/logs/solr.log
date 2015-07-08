@@ -1787,3 +1787,432 @@ INFO  - 2015-07-07 21:32:52.306; org.apache.solr.core.CachingDirectoryFactory; l
 INFO  - 2015-07-07 21:32:52.306; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
 INFO  - 2015-07-07 21:32:52.306; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index;done=false>>]
 INFO  - 2015-07-07 21:32:52.307; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-07 21:44:04.998; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-07-07 21:44:05.029; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore
+INFO  - 2015-07-07 21:44:05.033; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/'
+INFO  - 2015-07-07 21:44:05.345; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/solr.xml
+INFO  - 2015-07-07 21:44:05.639; org.apache.solr.core.CoreContainer; New CoreContainer 551341995
+INFO  - 2015-07-07 21:44:05.639; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/]
+INFO  - 2015-07-07 21:44:05.669; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-07-07 21:44:05.669; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: 
+INFO  - 2015-07-07 21:44:05.679; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-07-07 21:44:05.680; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-07 21:44:05.680; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-07 21:44:05.680; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-07 21:44:05.681; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-07 21:44:05.681; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-07 21:44:05.682; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-07 21:44:06.058; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-07 21:44:06.062; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-07 21:44:06.065; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-07-07 21:44:06.194; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0
+INFO  - 2015-07-07 21:44:06.196; org.apache.solr.core.CoreContainer; Creating SolrCore 'core1' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1
+INFO  - 2015-07-07 21:44:06.200; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/'
+INFO  - 2015-07-07 21:44:06.199; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/'
+INFO  - 2015-07-07 21:44:06.356; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-07 21:44:06.360; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-07 21:44:06.616; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-07 21:44:06.616; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-07 21:44:06.634; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-07 21:44:06.635; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-07 21:44:06.649; org.apache.solr.schema.IndexSchema; [core0] Schema name=example core zero
+INFO  - 2015-07-07 21:44:06.654; org.apache.solr.schema.IndexSchema; [core1] Schema name=example core one
+INFO  - 2015-07-07 21:44:06.878; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-07 21:44:06.878; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-07 21:44:06.879; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-07 21:44:06.880; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-07 21:44:06.881; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-07 21:44:06.881; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-07 21:44:06.918; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-07 21:44:06.918; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-07 21:44:06.933; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/
+INFO  - 2015-07-07 21:44:06.933; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core0
+INFO  - 2015-07-07 21:44:06.935; org.apache.solr.core.SolrCore; [core1] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/
+INFO  - 2015-07-07 21:44:06.935; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core1
+INFO  - 2015-07-07 21:44:06.962; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-07 21:44:06.962; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-07 21:44:06.963; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index/
+INFO  - 2015-07-07 21:44:06.963; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index/
+INFO  - 2015-07-07 21:44:06.984; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-07 21:44:06.985; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-07 21:44:07.162; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-07 21:44:07.163; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-07 21:44:07.181; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-07 21:44:07.181; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-07 21:44:07.182; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-07 21:44:07.185; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-07 21:44:07.186; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-07 21:44:07.186; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-07 21:44:07.190; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-07 21:44:07.190; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-07 21:44:07.190; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-07 21:44:07.197; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-07 21:44:07.198; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-07 21:44:07.198; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-07 21:44:07.199; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-07 21:44:07.199; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-07 21:44:07.199; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-07 21:44:07.200; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-07 21:44:07.205; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-07 21:44:07.205; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-07 21:44:07.240; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-07 21:44:07.240; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-07 21:44:07.278; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-07 21:44:07.278; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-07 21:44:07.278; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-07 21:44:07.279; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-07 21:44:07.488; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-07 21:44:07.489; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-07 21:44:07.489; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-07 21:44:07.491; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-07 21:44:07.507; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@6e7d3050[core0] main
+INFO  - 2015-07-07 21:44:07.507; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@5cef0cdb[core1] main
+INFO  - 2015-07-07 21:44:07.548; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@6e7d3050[core0] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-07 21:44:07.550; org.apache.solr.core.SolrCore; [core1] Registered new searcher Searcher@5cef0cdb[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-07 21:44:07.552; org.apache.solr.core.CoreContainer; registering core: core1
+INFO  - 2015-07-07 21:44:07.552; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2015-07-07 21:44:07.555; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44
+INFO  - 2015-07-07 21:44:07.556; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-07-07 21:44:19.349; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1436330659334&wt=json} status=0 QTime=10 
+INFO  - 2015-07-07 21:44:19.564; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1436330659420&wt=json} status=0 QTime=126 
+INFO  - 2015-07-07 21:44:24.992; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436330664981&wt=json} status=0 QTime=6 
+INFO  - 2015-07-07 21:44:25.031; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436330665023&wt=json} status=0 QTime=1 
+INFO  - 2015-07-07 21:44:28.754; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436330668741&wt=json} status=0 QTime=1 
+INFO  - 2015-07-07 21:44:48.421; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=551341995
+INFO  - 2015-07-07 21:44:48.422; org.apache.solr.core.SolrCore; [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@66bb1ead
+INFO  - 2015-07-07 21:44:48.423; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-07 21:44:48.423; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-07 21:44:48.423; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-07 21:44:48.423; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-07 21:44:48.429; org.apache.solr.core.SolrCore; [core0] Closing main searcher on request.
+INFO  - 2015-07-07 21:44:48.430; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-07 21:44:48.431; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data;done=false>>]
+INFO  - 2015-07-07 21:44:48.431; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-07 21:44:48.431; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index;done=false>>]
+INFO  - 2015-07-07 21:44:48.432; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-07 21:44:48.432; org.apache.solr.core.SolrCore; [core1]  CLOSING SolrCore org.apache.solr.core.SolrCore@40bbc1f6
+INFO  - 2015-07-07 21:44:48.432; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-07 21:44:48.432; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-07 21:44:48.432; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-07 21:44:48.433; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-07 21:44:48.434; org.apache.solr.core.SolrCore; [core1] Closing main searcher on request.
+INFO  - 2015-07-07 21:44:48.435; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-07 21:44:48.435; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data;done=false>>]
+INFO  - 2015-07-07 21:44:48.435; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-07 21:44:48.435; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index;done=false>>]
+INFO  - 2015-07-07 21:44:48.436; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 15:02:16.150; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-07-08 15:02:16.607; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore
+INFO  - 2015-07-08 15:02:16.610; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/'
+INFO  - 2015-07-08 15:02:18.793; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/solr.xml
+INFO  - 2015-07-08 15:02:19.599; org.apache.solr.core.CoreContainer; New CoreContainer 1225252094
+INFO  - 2015-07-08 15:02:19.600; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/]
+INFO  - 2015-07-08 15:02:20.076; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-07-08 15:02:20.077; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: 
+INFO  - 2015-07-08 15:02:20.114; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-07-08 15:02:20.114; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-08 15:02:20.115; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-08 15:02:20.115; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-08 15:02:20.115; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-08 15:02:20.116; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-08 15:02:20.116; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-08 15:02:21.071; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-08 15:02:21.074; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-08 15:02:21.091; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-07-08 15:02:21.761; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0
+INFO  - 2015-07-08 15:02:21.761; org.apache.solr.core.CoreContainer; Creating SolrCore 'core1' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1
+INFO  - 2015-07-08 15:02:21.765; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/'
+INFO  - 2015-07-08 15:02:21.766; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/'
+INFO  - 2015-07-08 15:02:22.270; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 15:02:22.280; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 15:02:22.980; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 15:02:22.980; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 15:02:23.092; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 15:02:23.092; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 15:02:23.127; org.apache.solr.schema.IndexSchema; [core1] Schema name=example core one
+INFO  - 2015-07-08 15:02:23.127; org.apache.solr.schema.IndexSchema; [core0] Schema name=example core zero
+INFO  - 2015-07-08 15:02:23.635; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 15:02:23.635; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 15:02:23.638; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 15:02:23.639; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 15:02:23.643; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 15:02:23.722; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 15:02:24.003; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 15:02:24.003; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 15:02:24.050; org.apache.solr.core.SolrCore; [core1] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/
+INFO  - 2015-07-08 15:02:24.050; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/
+INFO  - 2015-07-08 15:02:24.050; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core1
+INFO  - 2015-07-08 15:02:24.051; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core0
+INFO  - 2015-07-08 15:02:24.174; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-08 15:02:24.174; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index/
+INFO  - 2015-07-08 15:02:24.175; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-08 15:02:24.176; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index/
+INFO  - 2015-07-08 15:02:24.201; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 15:02:24.202; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-08 15:02:25.037; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 15:02:25.037; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 15:02:25.110; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 15:02:25.110; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 15:02:25.110; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 15:02:25.111; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 15:02:25.112; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 15:02:25.112; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 15:02:25.125; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 15:02:25.125; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 15:02:25.126; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 15:02:25.126; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 15:02:25.126; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 15:02:25.126; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 15:02:25.173; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 15:02:25.173; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 15:02:25.174; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 15:02:25.174; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 15:02:25.182; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 15:02:25.182; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 15:02:25.587; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 15:02:25.587; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 15:02:25.752; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 15:02:25.752; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 15:02:25.752; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 15:02:25.753; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 15:02:26.204; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 15:02:26.204; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 15:02:26.206; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 15:02:26.206; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 15:02:26.256; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@5ab6b2a5[core1] main
+INFO  - 2015-07-08 15:02:26.256; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4c4936f3[core0] main
+INFO  - 2015-07-08 15:02:26.384; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@4c4936f3[core0] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 15:02:26.384; org.apache.solr.core.SolrCore; [core1] Registered new searcher Searcher@5ab6b2a5[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 15:02:26.386; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2015-07-08 15:02:26.386; org.apache.solr.core.CoreContainer; registering core: core1
+INFO  - 2015-07-08 15:02:26.389; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44
+INFO  - 2015-07-08 15:02:26.389; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-07-08 15:13:10.699; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1225252094
+INFO  - 2015-07-08 15:13:10.757; org.apache.solr.core.SolrCore; [core1]  CLOSING SolrCore org.apache.solr.core.SolrCore@7a6dd8e1
+INFO  - 2015-07-08 15:13:10.757; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-08 15:13:10.758; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-08 15:13:10.758; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-08 15:13:10.758; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-08 15:13:11.454; org.apache.solr.core.SolrCore; [core1] Closing main searcher on request.
+INFO  - 2015-07-08 15:13:11.455; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-08 15:13:11.455; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index;done=false>>]
+INFO  - 2015-07-08 15:13:11.456; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 15:13:11.456; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data;done=false>>]
+INFO  - 2015-07-08 15:13:11.456; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-08 15:13:11.456; org.apache.solr.core.SolrCore; [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@4fc0cb76
+INFO  - 2015-07-08 15:13:11.457; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-08 15:13:11.457; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-08 15:13:11.457; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-08 15:13:11.457; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-08 15:13:11.459; org.apache.solr.core.SolrCore; [core0] Closing main searcher on request.
+INFO  - 2015-07-08 15:13:11.460; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-08 15:13:11.460; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data;done=false>>]
+INFO  - 2015-07-08 15:13:11.460; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-08 15:13:11.461; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index;done=false>>]
+INFO  - 2015-07-08 15:13:11.461; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-08 15:15:00.351; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-07-08 15:15:00.453; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore
+INFO  - 2015-07-08 15:15:00.456; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/'
+INFO  - 2015-07-08 15:15:00.993; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/solr.xml
+INFO  - 2015-07-08 15:15:01.275; org.apache.solr.core.CoreContainer; New CoreContainer 740545141
+INFO  - 2015-07-08 15:15:01.276; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/]
+INFO  - 2015-07-08 15:15:01.356; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-07-08 15:15:01.356; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: 
+INFO  - 2015-07-08 15:15:01.385; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-07-08 15:15:01.385; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-08 15:15:01.386; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-08 15:15:01.386; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-08 15:15:01.387; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-08 15:15:01.387; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-08 15:15:01.388; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-08 15:15:01.808; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-08 15:15:01.811; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-08 15:15:01.813; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-07-08 15:15:02.051; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0
+INFO  - 2015-07-08 15:15:02.051; org.apache.solr.core.CoreContainer; Creating SolrCore 'core1' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1
+INFO  - 2015-07-08 15:15:02.052; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/'
+INFO  - 2015-07-08 15:15:02.052; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/'
+INFO  - 2015-07-08 15:15:02.344; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 15:15:02.350; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 15:15:02.625; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 15:15:02.625; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 15:15:02.707; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 15:15:02.707; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 15:15:02.734; org.apache.solr.schema.IndexSchema; [core0] Schema name=example core zero
+INFO  - 2015-07-08 15:15:02.761; org.apache.solr.schema.IndexSchema; [core1] Schema name=example core one
+INFO  - 2015-07-08 15:15:02.905; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 15:15:02.907; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 15:15:02.909; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 15:15:02.905; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 15:15:02.923; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 15:15:02.927; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 15:15:03.010; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 15:15:03.010; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 15:15:03.034; org.apache.solr.core.SolrCore; [core1] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/
+INFO  - 2015-07-08 15:15:03.035; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core1
+INFO  - 2015-07-08 15:15:03.036; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/
+INFO  - 2015-07-08 15:15:03.036; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core0
+INFO  - 2015-07-08 15:15:03.069; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-08 15:15:03.070; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index/
+INFO  - 2015-07-08 15:15:03.070; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-08 15:15:03.071; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index/
+INFO  - 2015-07-08 15:15:03.074; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 15:15:03.075; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-08 15:15:03.347; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 15:15:03.347; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 15:15:03.375; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 15:15:03.375; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 15:15:03.375; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 15:15:03.376; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 15:15:03.377; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 15:15:03.380; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 15:15:03.382; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 15:15:03.382; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 15:15:03.382; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 15:15:03.385; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 15:15:03.385; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 15:15:03.385; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 15:15:03.401; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 15:15:03.405; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 15:15:03.405; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 15:15:03.406; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 15:15:03.411; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 15:15:03.413; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 15:15:03.511; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 15:15:03.511; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 15:15:03.565; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 15:15:03.565; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 15:15:03.566; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 15:15:03.566; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 15:15:03.911; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 15:15:03.913; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 15:15:03.938; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@60487c5f[core0] main
+INFO  - 2015-07-08 15:15:03.952; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 15:15:03.953; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 15:15:03.953; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@14e7bb91[core1] main
+INFO  - 2015-07-08 15:15:03.996; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@60487c5f[core0] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 15:15:03.999; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2015-07-08 15:15:03.999; org.apache.solr.core.CoreContainer; registering core: core1
+INFO  - 2015-07-08 15:15:03.999; org.apache.solr.core.SolrCore; [core1] Registered new searcher Searcher@14e7bb91[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 15:15:04.004; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44
+INFO  - 2015-07-08 15:15:04.005; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-07-08 15:15:32.899; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1436393732835&wt=json} status=0 QTime=51 
+INFO  - 2015-07-08 15:15:33.515; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1436393733077&wt=json} status=0 QTime=435 
+INFO  - 2015-07-08 15:15:33.619; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436393733539&wt=json} status=0 QTime=75 
+INFO  - 2015-07-08 16:01:43.649; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=740545141
+INFO  - 2015-07-08 16:01:43.652; org.apache.solr.core.SolrCore; [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@5965e55e
+INFO  - 2015-07-08 16:01:43.653; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-08 16:01:43.654; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-08 16:01:43.654; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-08 16:01:43.654; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-08 16:01:43.669; org.apache.solr.core.SolrCore; [core0] Closing main searcher on request.
+INFO  - 2015-07-08 16:01:43.671; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-08 16:01:43.671; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index;done=false>>]
+INFO  - 2015-07-08 16:01:43.671; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-08 16:01:43.672; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data;done=false>>]
+INFO  - 2015-07-08 16:01:43.672; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-08 16:01:43.672; org.apache.solr.core.SolrCore; [core1]  CLOSING SolrCore org.apache.solr.core.SolrCore@3739491b
+INFO  - 2015-07-08 16:01:43.673; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-08 16:01:43.673; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-08 16:01:43.674; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-08 16:01:43.674; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-08 16:01:43.676; org.apache.solr.core.SolrCore; [core1] Closing main searcher on request.
+INFO  - 2015-07-08 16:01:43.677; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-08 16:01:43.677; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data;done=false>>]
+INFO  - 2015-07-08 16:01:43.677; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-08 16:01:43.678; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index;done=false>>]
+INFO  - 2015-07-08 16:01:43.678; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 16:01:49.537; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-07-08 16:01:49.570; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore
+INFO  - 2015-07-08 16:01:49.573; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/'
+INFO  - 2015-07-08 16:01:49.892; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/solr.xml
+INFO  - 2015-07-08 16:01:50.098; org.apache.solr.core.CoreContainer; New CoreContainer 2064366914
+INFO  - 2015-07-08 16:01:50.098; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/]
+INFO  - 2015-07-08 16:01:50.132; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-07-08 16:01:50.132; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: 
+INFO  - 2015-07-08 16:01:50.142; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-07-08 16:01:50.143; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-08 16:01:50.144; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-08 16:01:50.144; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-08 16:01:50.144; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-08 16:01:50.145; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-08 16:01:50.145; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-08 16:01:50.587; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-08 16:01:50.593; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-08 16:01:50.596; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-07-08 16:01:50.749; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0
+INFO  - 2015-07-08 16:01:50.750; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/'
+INFO  - 2015-07-08 16:01:50.751; org.apache.solr.core.CoreContainer; Creating SolrCore 'core1' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1
+INFO  - 2015-07-08 16:01:50.751; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/'
+INFO  - 2015-07-08 16:01:50.886; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 16:01:50.893; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 16:01:51.116; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 16:01:51.135; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 16:01:51.136; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 16:01:51.143; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 16:01:51.156; org.apache.solr.schema.IndexSchema; [core0] Schema name=example core zero
+INFO  - 2015-07-08 16:01:51.165; org.apache.solr.schema.IndexSchema; [core1] Schema name=example core one
+INFO  - 2015-07-08 16:01:51.333; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 16:01:51.334; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 16:01:51.335; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 16:01:51.355; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 16:01:51.362; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 16:01:51.367; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 16:01:51.383; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 16:01:51.383; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 16:01:51.403; org.apache.solr.core.SolrCore; [core1] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/
+INFO  - 2015-07-08 16:01:51.403; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/
+INFO  - 2015-07-08 16:01:51.404; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core0
+INFO  - 2015-07-08 16:01:51.404; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core1
+INFO  - 2015-07-08 16:01:51.433; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-08 16:01:51.433; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-08 16:01:51.434; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index/
+INFO  - 2015-07-08 16:01:51.434; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index/
+INFO  - 2015-07-08 16:01:51.435; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-08 16:01:51.435; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 16:01:51.633; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 16:01:51.633; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 16:01:51.649; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 16:01:51.649; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 16:01:51.651; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 16:01:51.651; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 16:01:51.652; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 16:01:51.652; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 16:01:51.656; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 16:01:51.656; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 16:01:51.657; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:01:51.657; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:01:51.657; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:01:51.657; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:01:51.664; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 16:01:51.665; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 16:01:51.665; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 16:01:51.666; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 16:01:51.670; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 16:01:51.670; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 16:01:51.701; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 16:01:51.701; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 16:01:51.736; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 16:01:51.737; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 16:01:51.736; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 16:01:51.737; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 16:01:51.915; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 16:01:51.915; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 16:01:51.916; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 16:01:51.916; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 16:01:51.936; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@665b6d00[core0] main
+INFO  - 2015-07-08 16:01:51.936; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@3e3a5a9c[core1] main
+INFO  - 2015-07-08 16:01:51.977; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@665b6d00[core0] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 16:01:51.978; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2015-07-08 16:01:51.978; org.apache.solr.core.CoreContainer; registering core: core1
+INFO  - 2015-07-08 16:01:51.978; org.apache.solr.core.SolrCore; [core1] Registered new searcher Searcher@3e3a5a9c[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 16:01:51.981; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44
+INFO  - 2015-07-08 16:01:51.981; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done

@@ -3,10 +3,13 @@
 <project name="ciTest" basedir="." default="dist">
     <property name="build.dir" location="build"/>
     <property name="jar.dir" location="target"/>
-    <property name="tomcat.jsp.dir" location="apache-tomcat.6.0.44/webapps/ROOT"/>
+    <property name="tomcat.root.dir" value="apache-tomcat.6.0.44"/>
+    <property name="tomcat.conf.localhost.dir" value="${tomcat.root.dir}/conf/Catalina/localhost"/>
+    <property name="tomcat.jsp.dir" location="${tomcat.root.dir}/webapps/ROOT"/>
     <property name="tomcat.dir" location="${tomcat.jsp.dir}/WEB-INF"/>
     <property name="tomcat.classes.dir" location="${tomcat.dir}/classes"/>
-    <property name="target.jar" location="${jar.dir}/ciTest.jar"/>
+    <property name="jar.name" value="ciTest.jar"/>
+    <property name="target.jar" location="${jar.dir}/${jar.name}"/>
 
     <target name="init">
         <mkdir dir="${build.dir}"/>
@@ -34,6 +37,9 @@
                 </fileset>
             </classpath>
         </javac>
+        <path id="build.classpath">
+          <dirset dir="${build.dir}" />
+        </path>
         <!-- also the servlets to Tomcat -->
         <javac debug="true" debuglevel="source,lines,vars" destdir="${tomcat.classes.dir}" source="1.6" target="1.6"
                includeAntRuntime="false">
@@ -44,6 +50,8 @@
                 <fileset dir="lib">
                     <include name="*.jar"/>
                 </fileset>
+                <fileset dir="${build.dir}" />
+                <path refid="build.classpath" />
             </classpath>
         </javac>
         <!-- and lib jars -->
@@ -73,6 +81,10 @@
         </copy>
         <jar destfile="${target.jar}" basedir="${build.dir}/"
              includes="org/**" excludes="**/test/*"/>
+        <!-- and copy the jar so servlets can see classes -->
+        <copy todir="${tomcat.dir}/lib">
+            <fileset dir="${jar.dir}" includes="${jar.name}"/>
+        </copy>
     </target>
 
     <target name="test" depends="build">

@@ -64,6 +64,10 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("More about servlet/jsp interaction at<br>\n");
       out.write("http://docs.oracle.com/cd/A87860_01/doc/java.817/a83726/basics4.htm#1013818<br />\n");
       out.write("\n");
+      out.write("here is a property set by ant:\n");
+  out.print(System.getProperty("tomcat.conf.localhost.dir")); 
+      out.write("\n");
+      out.write("\n");
       out.write("    <h2>Fill in two fields and submit:</h4>\n");
       out.write("    <FORM action = \"/servlet/org.shifra.core.servlets.FormServlet\" method = \"POST\">\n");
       out.write("        first field: <INPUT type=\"TEXT\" name=\"lineOne\"/>\n");
@@ -78,6 +82,7 @@ session.setAttribute("arbitraryPassedThing", somethingToPass);
 
       out.write("\n");
       out.write("<h2>here is a table with alternating colored rows that is not filled in yet</h2>\n");
+      out.write("\n");
       out.write("\n");
       out.write("  <table class=\"colorTable\">\n");
       out.write("    <tr>\n");
