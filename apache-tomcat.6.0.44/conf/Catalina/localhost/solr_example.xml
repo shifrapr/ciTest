@@ -1,5 +1,5 @@
 <Context docBase="/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/solr/solr-4.7.2.war" debug="0" crossContext="true">
-    <!-- this file doesn't actually seem to do anything -->
+  <!--<Environment name="solr/home" type="java.lang.String" value="/Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs" override="true" />-->
   <Environment name="solr/home" type="java.lang.String" value="/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore" override="true" />
     <!--<Environment name="solr/home" type="java.lang.String" value="/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/solr-4.7.2/cores" override="true" />-->
 </Context>

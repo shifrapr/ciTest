@@ -28,7 +28,7 @@
         <touch file="${tomcat.dir}/resource/testFile" mkdirs="true" verbose="true"/>
         <javac debug="true" debuglevel="source,lines,vars" destdir="${build.dir}" source="1.6" target="1.6"
                includeAntRuntime="false">
-            <src path="."/>
+            <src path="src"/>
             <exclude name="apache*/**"/>
             <exclude name="fubar*/**"/>
             <classpath>

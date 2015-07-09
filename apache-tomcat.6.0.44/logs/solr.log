@@ -2216,3 +2216,771 @@ INFO  - 2015-07-08 16:01:51.978; org.apache.solr.core.CoreContainer; registering
 INFO  - 2015-07-08 16:01:51.978; org.apache.solr.core.SolrCore; [core1] Registered new searcher Searcher@3e3a5a9c[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
 INFO  - 2015-07-08 16:01:51.981; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44
 INFO  - 2015-07-08 16:01:51.981; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-07-08 16:13:00.222; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436397180179&wt=json} status=0 QTime=32 
+INFO  - 2015-07-08 16:13:11.577; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436397191573&wt=json} status=0 QTime=2 
+INFO  - 2015-07-08 16:22:51.337; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1436397771333&wt=json} status=0 QTime=1 
+INFO  - 2015-07-08 16:22:51.428; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1436397771371&wt=json} status=0 QTime=51 
+INFO  - 2015-07-08 16:30:44.591; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2064366914
+INFO  - 2015-07-08 16:30:44.592; org.apache.solr.core.SolrCore; [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@14b5d05b
+INFO  - 2015-07-08 16:30:44.593; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-08 16:30:44.593; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-08 16:30:44.593; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-08 16:30:44.594; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-08 16:30:44.604; org.apache.solr.core.SolrCore; [core0] Closing main searcher on request.
+INFO  - 2015-07-08 16:30:44.606; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-08 16:30:44.607; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data;done=false>>]
+INFO  - 2015-07-08 16:30:44.607; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-08 16:30:44.608; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index;done=false>>]
+INFO  - 2015-07-08 16:30:44.608; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-08 16:30:44.608; org.apache.solr.core.SolrCore; [core1]  CLOSING SolrCore org.apache.solr.core.SolrCore@2c8210fc
+INFO  - 2015-07-08 16:30:44.608; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-08 16:30:44.609; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-08 16:30:44.609; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-08 16:30:44.609; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-08 16:30:44.611; org.apache.solr.core.SolrCore; [core1] Closing main searcher on request.
+INFO  - 2015-07-08 16:30:44.611; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-08 16:30:44.611; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index;done=false>>]
+INFO  - 2015-07-08 16:30:44.612; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 16:30:44.612; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data;done=false>>]
+INFO  - 2015-07-08 16:30:44.612; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-08 16:30:52.079; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-07-08 16:30:52.105; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore
+INFO  - 2015-07-08 16:30:52.108; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/'
+INFO  - 2015-07-08 16:30:52.384; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/solr.xml
+INFO  - 2015-07-08 16:30:52.552; org.apache.solr.core.CoreContainer; New CoreContainer 2118052890
+INFO  - 2015-07-08 16:30:52.553; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/]
+INFO  - 2015-07-08 16:30:52.579; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-07-08 16:30:52.579; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: 
+INFO  - 2015-07-08 16:30:52.588; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-07-08 16:30:52.588; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-08 16:30:52.589; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-08 16:30:52.589; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-08 16:30:52.590; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-08 16:30:52.590; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-08 16:30:52.590; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-08 16:30:52.889; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-08 16:30:52.893; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-08 16:30:52.896; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-07-08 16:30:52.999; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0
+INFO  - 2015-07-08 16:30:53.000; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/'
+INFO  - 2015-07-08 16:30:53.008; org.apache.solr.core.CoreContainer; Creating SolrCore 'core1' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1
+INFO  - 2015-07-08 16:30:53.008; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/'
+INFO  - 2015-07-08 16:30:53.113; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 16:30:53.120; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 16:30:53.346; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 16:30:53.346; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 16:30:53.360; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 16:30:53.369; org.apache.solr.schema.IndexSchema; [core0] Schema name=example core zero
+INFO  - 2015-07-08 16:30:53.370; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 16:30:53.378; org.apache.solr.schema.IndexSchema; [core1] Schema name=example core one
+INFO  - 2015-07-08 16:30:53.535; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 16:30:53.536; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 16:30:53.536; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 16:30:53.537; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 16:30:53.538; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 16:30:53.539; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 16:30:53.580; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 16:30:53.580; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 16:30:53.599; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/
+INFO  - 2015-07-08 16:30:53.600; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core0
+INFO  - 2015-07-08 16:30:53.600; org.apache.solr.core.SolrCore; [core1] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/
+INFO  - 2015-07-08 16:30:53.601; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core1
+INFO  - 2015-07-08 16:30:53.623; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-08 16:30:53.623; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-08 16:30:53.624; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index/
+INFO  - 2015-07-08 16:30:53.624; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index/
+INFO  - 2015-07-08 16:30:53.625; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 16:30:53.625; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-08 16:30:53.817; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 16:30:53.817; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 16:30:53.833; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 16:30:53.833; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 16:30:53.834; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 16:30:53.834; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 16:30:53.835; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 16:30:53.835; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 16:30:53.840; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 16:30:53.840; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:30:53.841; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:30:53.844; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 16:30:53.844; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:30:53.844; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:30:53.847; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 16:30:53.849; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 16:30:53.849; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 16:30:53.850; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 16:30:53.853; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 16:30:53.853; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 16:30:53.884; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 16:30:53.884; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 16:30:53.917; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 16:30:53.917; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 16:30:53.918; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 16:30:53.918; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 16:30:54.082; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 16:30:54.084; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 16:30:54.087; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 16:30:54.088; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 16:30:54.104; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@24ec42e0[core0] main
+INFO  - 2015-07-08 16:30:54.104; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@131a9310[core1] main
+INFO  - 2015-07-08 16:30:54.143; org.apache.solr.core.SolrCore; [core1] Registered new searcher Searcher@131a9310[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 16:30:54.143; org.apache.solr.core.CoreContainer; registering core: core1
+INFO  - 2015-07-08 16:30:54.144; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@24ec42e0[core0] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 16:30:54.144; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2015-07-08 16:30:54.147; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44
+INFO  - 2015-07-08 16:30:54.147; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-07-08 16:31:16.253; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1436398276235&wt=json} status=0 QTime=15 
+INFO  - 2015-07-08 16:31:16.379; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1436398276308&wt=json} status=0 QTime=69 
+INFO  - 2015-07-08 16:31:16.418; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436398276397&wt=json} status=0 QTime=18 
+INFO  - 2015-07-08 16:35:57.262; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436398557258&wt=json} status=0 QTime=1 
+INFO  - 2015-07-08 16:35:57.332; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436398557328&wt=json} status=0 QTime=1 
+INFO  - 2015-07-08 16:36:00.094; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436398560091&wt=json} status=0 QTime=1 
+INFO  - 2015-07-08 16:36:05.770; org.apache.solr.core.CoreContainer; Reloading SolrCore 'core1' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1
+INFO  - 2015-07-08 16:36:05.770; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/'
+INFO  - 2015-07-08 16:36:05.847; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 16:36:05.905; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 16:36:05.906; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 16:36:05.913; org.apache.solr.schema.IndexSchema; [core1] Schema name=example core one
+INFO  - 2015-07-08 16:36:05.932; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 16:36:05.934; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 16:36:05.935; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 16:36:05.938; org.apache.solr.core.SolrCore; [core1] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/
+INFO  - 2015-07-08 16:36:05.939; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core1
+INFO  - 2015-07-08 16:36:05.939; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index/
+INFO  - 2015-07-08 16:36:05.941; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 16:36:05.948; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 16:36:05.948; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 16:36:05.948; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 16:36:05.949; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 16:36:05.949; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:36:05.949; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:36:05.950; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 16:36:05.950; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 16:36:05.951; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 16:36:05.952; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 16:36:05.960; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 16:36:05.960; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 16:36:05.964; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@2abb5859[core1] main
+INFO  - 2015-07-08 16:36:05.967; org.apache.solr.core.SolrCore; [core1] Registered new searcher Searcher@2abb5859[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 16:36:05.969; org.apache.solr.update.DefaultSolrCoreState; Creating new IndexWriter...
+INFO  - 2015-07-08 16:36:05.970; org.apache.solr.update.DefaultSolrCoreState; Waiting until IndexWriter is unused... core=core1
+INFO  - 2015-07-08 16:36:05.971; org.apache.solr.update.DefaultSolrCoreState; Closing old IndexWriter... core=core1
+INFO  - 2015-07-08 16:36:05.981; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 16:36:05.983; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 16:36:05.983; org.apache.solr.update.DefaultSolrCoreState; New IndexWriter is ready to be used.
+INFO  - 2015-07-08 16:36:05.984; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@5fcfad77[core1] main
+INFO  - 2015-07-08 16:36:05.989; org.apache.solr.core.SolrCore; [core1] Registered new searcher Searcher@5fcfad77[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 16:36:05.990; org.apache.solr.core.CoreContainer; replacing core: core1
+INFO  - 2015-07-08 16:36:05.990; org.apache.solr.core.SolrCore; [core1]  CLOSING SolrCore org.apache.solr.core.SolrCore@6c98a8b8
+INFO  - 2015-07-08 16:36:05.991; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-08 16:36:05.993; org.apache.solr.core.SolrCore; [core1] Closing main searcher on request.
+INFO  - 2015-07-08 16:36:05.994; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=RELOAD&_=1436398565767&core=core1&wt=json} status=0 QTime=225 
+INFO  - 2015-07-08 16:36:06.004; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436398566000&wt=json} status=0 QTime=2 
+INFO  - 2015-07-08 16:36:09.883; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436398569880&wt=json} status=0 QTime=1 
+INFO  - 2015-07-08 16:42:15.727; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2118052890
+INFO  - 2015-07-08 16:42:15.729; org.apache.solr.core.SolrCore; [core1]  CLOSING SolrCore org.apache.solr.core.SolrCore@43a544a5
+INFO  - 2015-07-08 16:42:15.730; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-08 16:42:15.731; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-08 16:42:15.731; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-08 16:42:15.731; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-08 16:42:15.733; org.apache.solr.core.SolrCore; [core1] Closing main searcher on request.
+INFO  - 2015-07-08 16:42:15.733; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-08 16:42:15.734; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data;done=false>>]
+INFO  - 2015-07-08 16:42:15.734; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-08 16:42:15.734; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index;done=false>>]
+INFO  - 2015-07-08 16:42:15.734; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 16:42:15.734; org.apache.solr.core.SolrCore; [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@c58f769
+INFO  - 2015-07-08 16:42:15.735; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-07-08 16:42:15.735; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-07-08 16:42:15.735; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-07-08 16:42:15.735; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-07-08 16:42:15.737; org.apache.solr.core.SolrCore; [core0] Closing main searcher on request.
+INFO  - 2015-07-08 16:42:15.737; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-07-08 16:42:15.737; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data;done=false>>]
+INFO  - 2015-07-08 16:42:15.737; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-08 16:42:15.738; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index;done=false>>]
+INFO  - 2015-07-08 16:42:15.738; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-08 16:42:17.994; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-07-08 16:42:18.014; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs
+INFO  - 2015-07-08 16:42:18.014; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs/'
+INFO  - 2015-07-08 16:42:18.250; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs/solr.xml
+INFO  - 2015-07-08 16:42:18.456; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs
+INFO  - 2015-07-08 16:42:18.472; org.apache.solr.core.CoreContainer; New CoreContainer 1267661359
+INFO  - 2015-07-08 16:42:18.473; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs/]
+INFO  - 2015-07-08 16:42:18.491; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-07-08 16:42:18.492; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-07-08 16:42:18.500; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-07-08 16:42:18.500; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-08 16:42:18.501; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-08 16:42:18.501; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-08 16:42:18.501; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-08 16:42:18.501; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-08 16:42:18.502; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-08 16:42:18.574; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-08 16:42:18.577; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-08 16:42:18.579; org.apache.solr.core.CoreContainer; Host Name: null
+ERROR - 2015-07-08 16:42:18.792; org.apache.solr.common.SolrException; null:
+javax.xml.transform.TransformerException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:363)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.eval(XPathImpl.java:204)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:266)
+	at org.apache.solr.core.ConfigSolr.readProperties(ConfigSolr.java:323)
+	at org.apache.solr.core.ConfigSolr.getSolrProperties(ConfigSolr.java:312)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:221)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:187)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:298)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:119)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4076)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4730)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:802)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:676)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:602)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:503)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1388)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:307)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1656)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1665)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1645)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.RuntimeException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.axes.NodeSequence.setRoot(NodeSequence.java:212)
+	at com.sun.org.apache.xpath.internal.axes.LocPathIterator.execute(LocPathIterator.java:210)
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:335)
+	... 25 more
+---------
+java.lang.RuntimeException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.axes.NodeSequence.setRoot(NodeSequence.java:212)
+	at com.sun.org.apache.xpath.internal.axes.LocPathIterator.execute(LocPathIterator.java:210)
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:335)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.eval(XPathImpl.java:204)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:266)
+	at org.apache.solr.core.ConfigSolr.readProperties(ConfigSolr.java:323)
+	at org.apache.solr.core.ConfigSolr.getSolrProperties(ConfigSolr.java:312)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:221)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:187)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:298)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:119)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4076)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4730)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:802)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:676)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:602)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:503)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1388)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:307)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1656)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1665)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1645)
+	at java.lang.Thread.run(Thread.java:695)
+--------------- linked to ------------------
+javax.xml.xpath.XPathExpressionException: javax.xml.transform.TransformerException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:280)
+	at org.apache.solr.core.ConfigSolr.readProperties(ConfigSolr.java:323)
+	at org.apache.solr.core.ConfigSolr.getSolrProperties(ConfigSolr.java:312)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:221)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:187)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:298)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:119)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4076)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4730)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:802)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:676)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:602)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:503)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1388)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:307)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1656)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1665)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1645)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: javax.xml.transform.TransformerException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:363)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.eval(XPathImpl.java:204)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:266)
+	... 23 more
+Caused by: java.lang.RuntimeException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.axes.NodeSequence.setRoot(NodeSequence.java:212)
+	at com.sun.org.apache.xpath.internal.axes.LocPathIterator.execute(LocPathIterator.java:210)
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:335)
+	... 25 more
+
+ERROR - 2015-07-08 16:42:18.794; org.apache.solr.servlet.SolrDispatchFilter; Could not start Solr. Check solr/home property and the logs
+ERROR - 2015-07-08 16:42:29.290; org.apache.solr.core.CoreContainer; CoreContainer was not shutdown prior to finalize(), indicates a bug -- POSSIBLE RESOURCE LEAK!!!  instance=1267661359
+INFO  - 2015-07-08 16:42:36.906; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-07-08 16:42:36.948; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs
+INFO  - 2015-07-08 16:42:36.952; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs/'
+INFO  - 2015-07-08 16:42:37.396; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs/solr.xml
+INFO  - 2015-07-08 16:42:37.614; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs
+INFO  - 2015-07-08 16:42:37.638; org.apache.solr.core.CoreContainer; New CoreContainer 1190265908
+INFO  - 2015-07-08 16:42:37.639; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs/]
+INFO  - 2015-07-08 16:42:37.667; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-07-08 16:42:37.668; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-07-08 16:42:37.678; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-07-08 16:42:37.679; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-08 16:42:37.679; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-08 16:42:37.680; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-08 16:42:37.681; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-08 16:42:37.681; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-08 16:42:37.682; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-08 16:42:38.063; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-08 16:42:38.066; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-08 16:42:38.069; org.apache.solr.core.CoreContainer; Host Name: null
+ERROR - 2015-07-08 16:42:38.173; org.apache.solr.common.SolrException; null:
+javax.xml.transform.TransformerException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:363)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.eval(XPathImpl.java:204)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:266)
+	at org.apache.solr.core.ConfigSolr.readProperties(ConfigSolr.java:323)
+	at org.apache.solr.core.ConfigSolr.getSolrProperties(ConfigSolr.java:312)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:221)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:187)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:298)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:119)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4076)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4730)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:802)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:676)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:602)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:503)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:325)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1068)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1060)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:759)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.RuntimeException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.axes.NodeSequence.setRoot(NodeSequence.java:212)
+	at com.sun.org.apache.xpath.internal.axes.LocPathIterator.execute(LocPathIterator.java:210)
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:335)
+	... 33 more
+---------
+java.lang.RuntimeException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.axes.NodeSequence.setRoot(NodeSequence.java:212)
+	at com.sun.org.apache.xpath.internal.axes.LocPathIterator.execute(LocPathIterator.java:210)
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:335)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.eval(XPathImpl.java:204)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:266)
+	at org.apache.solr.core.ConfigSolr.readProperties(ConfigSolr.java:323)
+	at org.apache.solr.core.ConfigSolr.getSolrProperties(ConfigSolr.java:312)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:221)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:187)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:298)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:119)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4076)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4730)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:802)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:676)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:602)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:503)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:325)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1068)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1060)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:759)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+--------------- linked to ------------------
+javax.xml.xpath.XPathExpressionException: javax.xml.transform.TransformerException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:280)
+	at org.apache.solr.core.ConfigSolr.readProperties(ConfigSolr.java:323)
+	at org.apache.solr.core.ConfigSolr.getSolrProperties(ConfigSolr.java:312)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:221)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:187)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:298)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:119)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4076)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4730)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:802)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:676)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:602)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:503)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:325)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1068)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1060)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:759)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: javax.xml.transform.TransformerException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:363)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.eval(XPathImpl.java:204)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:266)
+	... 31 more
+Caused by: java.lang.RuntimeException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.axes.NodeSequence.setRoot(NodeSequence.java:212)
+	at com.sun.org.apache.xpath.internal.axes.LocPathIterator.execute(LocPathIterator.java:210)
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:335)
+	... 33 more
+
+INFO  - 2015-07-08 16:42:38.179; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/spridera/Documents/code/solr/solr-4.7.2/example/exampledocs
+INFO  - 2015-07-08 16:42:38.181; org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions
+INFO  - 2015-07-08 16:42:38.184; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44
+INFO  - 2015-07-08 16:42:38.185; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-07-08 16:43:25.577; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1436399005491&wt=json} status=0 QTime=68 
+INFO  - 2015-07-08 16:43:25.695; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1436399005633&wt=json} status=0 QTime=58 
+INFO  - 2015-07-08 16:43:28.273; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436399008272&wt=json} status=0 QTime=0 
+INFO  - 2015-07-08 16:45:51.256; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1190265908
+INFO  - 2015-07-08 16:46:13.547; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-07-08 16:46:13.579; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore
+INFO  - 2015-07-08 16:46:13.582; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/'
+INFO  - 2015-07-08 16:46:13.906; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/solr.xml
+INFO  - 2015-07-08 16:46:14.100; org.apache.solr.core.CoreContainer; New CoreContainer 2092152486
+INFO  - 2015-07-08 16:46:14.101; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/]
+INFO  - 2015-07-08 16:46:14.130; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-07-08 16:46:14.131; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: 
+INFO  - 2015-07-08 16:46:14.140; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-07-08 16:46:14.140; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-08 16:46:14.141; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-08 16:46:14.141; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-08 16:46:14.142; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-08 16:46:14.142; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-08 16:46:14.143; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-08 16:46:14.469; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-08 16:46:14.473; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-08 16:46:14.477; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-07-08 16:46:14.590; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0
+INFO  - 2015-07-08 16:46:14.590; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/'
+INFO  - 2015-07-08 16:46:14.594; org.apache.solr.core.CoreContainer; Creating SolrCore 'core1' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1
+INFO  - 2015-07-08 16:46:14.594; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/'
+INFO  - 2015-07-08 16:46:14.710; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 16:46:14.731; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2015-07-08 16:46:14.969; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 16:46:14.982; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 16:46:14.988; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-08 16:46:14.989; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2015-07-08 16:46:15.000; org.apache.solr.schema.IndexSchema; [core0] Schema name=example core zero
+INFO  - 2015-07-08 16:46:15.002; org.apache.solr.schema.IndexSchema; [core1] Schema name=example core one
+INFO  - 2015-07-08 16:46:15.096; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 16:46:15.098; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 16:46:15.103; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 16:46:15.103; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2015-07-08 16:46:15.107; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2015-07-08 16:46:15.138; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-08 16:46:15.175; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 16:46:15.176; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2015-07-08 16:46:15.196; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/
+INFO  - 2015-07-08 16:46:15.196; org.apache.solr.core.SolrCore; [core1] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/
+INFO  - 2015-07-08 16:46:15.196; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core0
+INFO  - 2015-07-08 16:46:15.197; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: core1
+INFO  - 2015-07-08 16:46:15.217; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+INFO  - 2015-07-08 16:46:15.217; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+INFO  - 2015-07-08 16:46:15.218; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index/
+INFO  - 2015-07-08 16:46:15.218; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index/
+INFO  - 2015-07-08 16:46:15.219; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+INFO  - 2015-07-08 16:46:15.219; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+INFO  - 2015-07-08 16:46:15.396; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 16:46:15.410; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-08 16:46:15.415; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 16:46:15.416; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 16:46:15.418; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 16:46:15.422; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 16:46:15.422; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:46:15.423; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:46:15.429; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-07-08 16:46:15.430; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2015-07-08 16:46:15.430; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-07-08 16:46:15.432; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 16:46:15.434; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2015-07-08 16:46:15.435; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:46:15.435; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-07-08 16:46:15.436; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-07-08 16:46:15.436; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 16:46:15.437; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2015-07-08 16:46:15.441; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 16:46:15.448; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-07-08 16:46:15.503; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 16:46:15.505; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-08 16:46:15.549; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 16:46:15.549; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 16:46:15.549; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2015-07-08 16:46:15.550; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-08 16:46:15.690; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 16:46:15.694; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 16:46:15.695; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_1,generation=1}
+INFO  - 2015-07-08 16:46:15.696; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-08 16:46:15.713; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@5454570a[core0] main
+INFO  - 2015-07-08 16:46:15.713; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@45c81ac0[core1] main
+INFO  - 2015-07-08 16:46:15.755; org.apache.solr.core.SolrCore; [core1] Registered new searcher Searcher@45c81ac0[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 16:46:15.756; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@5454570a[core0] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-07-08 16:46:15.757; org.apache.solr.core.CoreContainer; registering core: core1
+INFO  - 2015-07-08 16:46:15.757; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2015-07-08 16:46:15.760; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44
+INFO  - 2015-07-08 16:46:15.761; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-07-08 16:46:17.961; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1436399177947&wt=json} status=0 QTime=10 
+INFO  - 2015-07-08 16:46:18.105; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1436399178033&wt=json} status=0 QTime=67 
+INFO  - 2015-07-08 16:46:21.006; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436399180997&wt=json} status=0 QTime=8 
+INFO  - 2015-07-08 16:46:21.052; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1436399181049&wt=json} status=0 QTime=2 
+INFO  - 2015-07-08 16:48:39.940; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1436399319936&wt=json} status=0 QTime=1 
+INFO  - 2015-07-08 16:48:40.023; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1436399319973&wt=json} status=0 QTime=42 
+INFO  - 2015-07-08 17:03:51.038; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={wt=javabin&version=2} {} 0 94
+ERROR - 2015-07-08 17:03:51.039; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: ERROR: [doc=id1] unknown field 'price'
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:174)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:77)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:234)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:160)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:69)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:51)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:704)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:858)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:557)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:100)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:247)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:174)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:92)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1916)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:768)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:415)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+
+INFO  - 2015-07-08 17:05:53.029; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={wt=javabin&version=2} {} 0 1
+ERROR - 2015-07-08 17:05:53.030; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: ERROR: [doc=id1] unknown field 'price'
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:174)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:77)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:234)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:160)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:69)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:51)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:704)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:858)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:557)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:100)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:247)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:174)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:92)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1916)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:768)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:415)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+
+INFO  - 2015-07-08 17:06:13.127; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={wt=javabin&version=2} {} 0 1
+ERROR - 2015-07-08 17:06:13.127; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: ERROR: [doc=id1] unknown field 'price'
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:174)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:77)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:234)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:160)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:69)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:51)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:704)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:858)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:557)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:100)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:247)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:174)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:92)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1916)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:768)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:415)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+
+INFO  - 2015-07-08 17:06:18.065; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={wt=javabin&version=2} {} 0 1
+ERROR - 2015-07-08 17:06:18.072; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: ERROR: [doc=id1] unknown field 'price'
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:174)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:77)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:234)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:160)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:69)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:51)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:704)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:858)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:557)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:100)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:247)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:174)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:92)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1916)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:768)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:415)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+
+INFO  - 2015-07-08 17:06:59.409; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={wt=javabin&version=2} {add=[id1 (1506175005991370752)]} 0 183
+INFO  - 2015-07-08 17:06:59.448; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2015-07-08 17:06:59.553; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_1,generation=1}
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_2,generation=2}
+INFO  - 2015-07-08 17:06:59.553; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 2
+INFO  - 2015-07-08 17:06:59.581; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@54563cc2[core0] main
+INFO  - 2015-07-08 17:06:59.583; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2015-07-08 17:06:59.584; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@54563cc2[core0] main{StandardDirectoryReader(segments_2:3:nrt _0(4.7):C1)}
+INFO  - 2015-07-08 17:06:59.586; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={waitSearcher=true&commit=true&wt=javabin&version=2&softCommit=false} {commit=} 0 139
+ERROR - 2015-07-08 17:06:59.634; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: sort param field can't be found: price
+	at org.apache.solr.search.QueryParsing.parseSortSpec(QueryParsing.java:364)
+	at org.apache.solr.search.QParser.getSort(QParser.java:247)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:151)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:196)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1916)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:768)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:415)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+
+INFO  - 2015-07-08 17:06:59.635; org.apache.solr.core.SolrCore; [core0] webapp=/solr_example path=/select params={sort=price+asc&q=*:*&wt=javabin&version=2} status=400 QTime=41 
+INFO  - 2015-07-08 17:07:17.683; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={wt=javabin&version=2} {add=[id1 (1506175025341792256)]} 0 3
+INFO  - 2015-07-08 17:07:17.689; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2015-07-08 17:07:17.742; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_2,generation=2}
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_3,generation=3}
+INFO  - 2015-07-08 17:07:17.743; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 3
+INFO  - 2015-07-08 17:07:17.747; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@70284ac3[core0] main
+INFO  - 2015-07-08 17:07:17.747; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2015-07-08 17:07:17.747; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@70284ac3[core0] main{StandardDirectoryReader(segments_3:7:nrt _1(4.7):C1)}
+INFO  - 2015-07-08 17:07:17.751; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={waitSearcher=true&commit=true&wt=javabin&version=2&softCommit=false} {commit=} 0 62
+ERROR - 2015-07-08 17:07:17.758; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: sort param field can't be found: price
+	at org.apache.solr.search.QueryParsing.parseSortSpec(QueryParsing.java:364)
+	at org.apache.solr.search.QParser.getSort(QParser.java:247)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:151)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:196)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1916)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:768)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:415)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+
+INFO  - 2015-07-08 17:07:17.758; org.apache.solr.core.SolrCore; [core0] webapp=/solr_example path=/select params={sort=price+asc&q=*:*&wt=javabin&version=2} status=400 QTime=2 
+INFO  - 2015-07-08 17:07:22.968; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={wt=javabin&version=2} {add=[id1 (1506175030882467840)]} 0 4
+INFO  - 2015-07-08 17:07:23.013; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2015-07-08 17:07:23.119; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_3,generation=3}
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_4,generation=4}
+INFO  - 2015-07-08 17:07:23.120; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 4
+INFO  - 2015-07-08 17:07:23.123; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@787f7957[core0] main
+INFO  - 2015-07-08 17:07:23.124; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2015-07-08 17:07:23.124; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@787f7957[core0] main{StandardDirectoryReader(segments_4:11:nrt _2(4.7):C1)}
+INFO  - 2015-07-08 17:07:23.126; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr_example path=/update params={waitSearcher=true&commit=true&wt=javabin&version=2&softCommit=false} {commit=} 0 113
+INFO  - 2015-07-08 17:07:23.205; org.apache.solr.core.SolrCore; [core0] webapp=/solr_example path=/select params={sort=name+asc&q=*:*&wt=javabin&version=2} hits=1 status=0 QTime=67 

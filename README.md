@@ -69,6 +69,8 @@ solr:
 can add more instances /Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/conf/Catalina/localhost/
 copy solr_example.
 
+solrconfig.xml is located within the core directory, e.g. core0, core1, in conf/
+
 when you start up can go to admin at
 
 http://localhost:30080/solr_example

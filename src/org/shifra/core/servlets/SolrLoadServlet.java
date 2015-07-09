@@ -1,5 +1,6 @@
 package org.shifra.core.servlets;
 
+import org.apache.solr.client.solrj.SolrServerException;
 import org.shifra.core.solr.Loader;
 
 import javax.servlet.ServletException;
@@ -17,9 +18,15 @@ public class SolrLoadServlet extends HttpServlet {
                       HttpServletResponse response)
             throws ServletException, IOException {
 
-        int numLoaded = new Loader().load();
         response.setContentType("text/html");
-                PrintWriter out = response.getWriter();
+        PrintWriter out = response.getWriter();
+
+        int numLoaded = 0;
+        try {
+            numLoaded = new Loader().load();
+        } catch (Exception e) {
+            out.print("Exception during load: " + e);
+        }
                 out.println(
                         "<H1>Loaded:" +
                         "</H1>\n"
