@@ -23,26 +23,15 @@ public class Loader {
 
 
     public int load() throws IOException, SolrServerException {
-        //not getting this passed successfully from ant
-//        String localhostDir = System.getProperty("tomcat.conf.localhost.dir");
-        //embedded server not in this version
-        String localhostDir = "conf/Catalina/localhost";
+
         String solrUrl = "http://localhost:30080/solr_example";
         String core = "core0";
         SolrServer server = new HttpSolrServer(solrUrl + "/" + core);
-        /*
-        File home = new File(localhostDir);
-            File f = new File(home, "solr_example.xml" );
-            CoreContainer container = new CoreContainer();
-            container.load( "/path/to/solr/home", f );
-
-            EmbeddedSolrServer server = new EmbeddedSolrServer( container, "core name as defined in solr.xml" );
-            */
 
         SolrInputDocument doc1 = new SolrInputDocument();
             doc1.addField( "id", "id1", 1.0f );
             doc1.addField( "name", "doc1", 1.0f );
-//            doc1.addField( "price", 10 );
+            doc1.addField( "foob", "blahbar" );
         Collection<SolrInputDocument> docs = new ArrayList<SolrInputDocument>();
          docs.add(doc1);
 server.add(docs);

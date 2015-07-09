@@ -4798,3 +4798,194 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 1269577 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  Ð [core0] Registered new searcher Searcher@787f7957[core0] main{StandardDirectoryReader(segments_4:11:nrt _2(4.7):C1)}
 1269579 [http-30080-7] INFO  org.apache.solr.update.processor.LogUpdateProcessor  Ð [core0] webapp=/solr_example path=/update params={waitSearcher=true&commit=true&wt=javabin&version=2&softCommit=false} {commit=} 0 113
 1269658 [http-30080-7] INFO  org.apache.solr.core.SolrCore  Ð [core0] webapp=/solr_example path=/select params={sort=name+asc&q=*:*&wt=javabin&version=2} hits=1 status=0 QTime=67 
+1537939 [http-30080-1] INFO  org.apache.solr.core.SolrCore  Ð [core0] webapp=/solr_example path=/select params={name=doc1} hits=0 status=0 QTime=17 
+1833241 [http-30080-1] INFO  org.apache.solr.core.SolrCore  Ð [core0] webapp=/solr_example path=/select params={q=name:doc1} hits=1 status=0 QTime=13 
+1882460 [http-30080-1] INFO  org.apache.solr.core.SolrCore  Ð [core0] webapp=/solr_example path=/select params={q=name:doc1} hits=1 status=0 QTime=1 
+Jul 8, 2015 5:20:53 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-30080
+Jul 8, 2015 5:20:54 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+2081103 [main] INFO  org.apache.solr.core.CoreContainer  Ð Shutting down CoreContainer instance=2092152486
+2081104 [main] INFO  org.apache.solr.core.SolrCore  Ð [core1]  CLOSING SolrCore org.apache.solr.core.SolrCore@24ec42e0
+2081105 [main] INFO  org.apache.solr.update.UpdateHandler  Ð closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+2081106 [main] INFO  org.apache.solr.update.SolrCoreState  Ð Closing SolrCoreState
+2081107 [main] INFO  org.apache.solr.update.DefaultSolrCoreState  Ð SolrCoreState ref count has reached 0 - closing IndexWriter
+2081107 [main] INFO  org.apache.solr.update.DefaultSolrCoreState  Ð closing IndexWriter with IndexWriterCloser
+2081110 [main] INFO  org.apache.solr.core.SolrCore  Ð [core1] Closing main searcher on request.
+2081112 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð Closing StandardDirectoryFactory - 2 directories currently being tracked
+2081113 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index;done=false>>]
+2081113 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+2081113 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data;done=false>>]
+2081114 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+2081114 [main] INFO  org.apache.solr.core.SolrCore  Ð [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@131a9310
+2081114 [main] INFO  org.apache.solr.update.UpdateHandler  Ð closing DirectUpdateHandler2{commits=3,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=4,cumulative_adds=7,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=4,transaction_logs_total_size=327,transaction_logs_total_number=3}
+2081115 [main] INFO  org.apache.solr.update.SolrCoreState  Ð Closing SolrCoreState
+2081115 [main] INFO  org.apache.solr.update.DefaultSolrCoreState  Ð SolrCoreState ref count has reached 0 - closing IndexWriter
+2081115 [main] INFO  org.apache.solr.update.DefaultSolrCoreState  Ð closing IndexWriter with IndexWriterCloser
+2081117 [main] INFO  org.apache.solr.core.SolrCore  Ð [core0] Closing main searcher on request.
+2081119 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð Closing StandardDirectoryFactory - 2 directories currently being tracked
+2081119 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index;done=false>>]
+2081119 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+2081120 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð looking to close /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data [CachedDir<<refCount=0;path=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data;done=false>>]
+2081120 [main] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð Closing directory: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+Jul 8, 2015 5:20:54 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/solr_example] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@4c23b5c3]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 8, 2015 5:20:54 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/solr_example] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@4c23b5c3]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 8, 2015 5:20:55 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-30080
+Jul 8, 2015 5:20:59 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Jul 8, 2015 5:21:00 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-30080
+Jul 8, 2015 5:21:00 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 803 ms
+Jul 8, 2015 5:21:00 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 8, 2015 5:21:00 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.44
+Jul 8, 2015 5:21:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 8, 2015 5:21:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 8, 2015 5:21:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor solr_example.xml
+0    [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  Ð SolrDispatchFilter.init()
+32   [main] INFO  org.apache.solr.core.SolrResourceLoader  Ð Using JNDI solr.home: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore
+35   [main] INFO  org.apache.solr.core.SolrResourceLoader  Ð new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/'
+345  [main] INFO  org.apache.solr.core.ConfigSolr  Ð Loading container configuration from /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/solr.xml
+560  [main] INFO  org.apache.solr.core.CoreContainer  Ð New CoreContainer 1282830982
+561  [main] INFO  org.apache.solr.core.CoreContainer  Ð Loading cores into CoreContainer [instanceDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/]
+592  [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  Ð Setting socketTimeout to: 0
+593  [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  Ð Setting urlScheme to: 
+605  [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  Ð Setting connTimeout to: 0
+605  [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  Ð Setting maxConnectionsPerHost to: 20
+606  [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  Ð Setting corePoolSize to: 0
+606  [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  Ð Setting maximumPoolSize to: 2147483647
+606  [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  Ð Setting maxThreadIdleTime to: 5
+607  [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  Ð Setting sizeOfQueue to: -1
+607  [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  Ð Setting fairnessPolicy to: false
+1095 [main] INFO  org.apache.solr.logging.LogWatcher  Ð SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+1098 [main] INFO  org.apache.solr.logging.LogWatcher  Ð Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+1101 [main] INFO  org.apache.solr.core.CoreContainer  Ð Host Name: 
+1251 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.CoreContainer  Ð Creating SolrCore 'core0' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0
+1252 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  Ð new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/'
+1256 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.CoreContainer  Ð Creating SolrCore 'core1' using instanceDir: /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1
+1256 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  Ð new SolrResourceLoader for directory: '/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/'
+1393 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrConfig  Ð Using Lucene MatchVersion: LUCENE_47
+1404 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrConfig  Ð Using Lucene MatchVersion: LUCENE_47
+1630 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.Config  Ð Loaded SolrConfig: solrconfig.xml
+1631 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.Config  Ð Loaded SolrConfig: solrconfig.xml
+1644 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.schema.IndexSchema  Ð Reading Solr Schema from schema.xml
+1656 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.schema.IndexSchema  Ð [core1] Schema name=example core one
+1651 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.schema.IndexSchema  Ð Reading Solr Schema from schema.xml
+1703 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.schema.IndexSchema  Ð [core0] Schema name=example core zero
+1791 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.schema.IndexSchema  Ð default search field in schema is name
+1793 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.schema.IndexSchema  Ð query parser default operator is OR
+1794 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.schema.IndexSchema  Ð unique key field: id
+1797 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.schema.IndexSchema  Ð default search field in schema is name
+1813 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.schema.IndexSchema  Ð query parser default operator is OR
+1820 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.schema.IndexSchema  Ð unique key field: id
+1853 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  Ð solr.StandardDirectoryFactory
+1853 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrCore  Ð solr.StandardDirectoryFactory
+1871 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrCore  Ð [core1] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/
+1871 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  Ð [core0] Opening new SolrCore at /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/, dataDir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/
+1872 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  Ð JMX monitoring not detected for core: core0
+1871 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrCore  Ð JMX monitoring not detected for core: core1
+1896 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data
+1896 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data
+1896 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrCore  Ð New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index/
+1897 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  Ð New index directory detected: old=null new=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index/
+1897 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index
+1898 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  Ð return new directory for /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index
+2075 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  Ð no updateRequestProcessorChain defined as default, creating implicit default
+2075 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrCore  Ð no updateRequestProcessorChain defined as default, creating implicit default
+2092 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.RequestHandlers  Ð created /get: solr.RealTimeGetHandler
+2093 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.RequestHandlers  Ð adding lazy requestHandler: solr.ReplicationHandler
+2094 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.RequestHandlers  Ð created /get: solr.RealTimeGetHandler
+2094 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.RequestHandlers  Ð adding lazy requestHandler: solr.ReplicationHandler
+2095 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.RequestHandlers  Ð created /replication: solr.ReplicationHandler
+2095 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.RequestHandlers  Ð created /replication: solr.ReplicationHandler
+2100 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.RequestHandlers  Ð created standard: solr.StandardRequestHandler
+2100 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.RequestHandlers  Ð adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+2100 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.RequestHandlers  Ð created /analysis/field: solr.FieldAnalysisRequestHandler
+2100 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.RequestHandlers  Ð created standard: solr.StandardRequestHandler
+2101 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.RequestHandlers  Ð adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+2101 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.RequestHandlers  Ð created /analysis/field: solr.FieldAnalysisRequestHandler
+2106 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.RequestHandlers  Ð created /update: solr.UpdateRequestHandler
+2108 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.RequestHandlers  Ð created /admin/: org.apache.solr.handler.admin.AdminHandlers
+2109 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.RequestHandlers  Ð created /update: solr.UpdateRequestHandler
+2110 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.RequestHandlers  Ð created /admin/: org.apache.solr.handler.admin.AdminHandlers
+2113 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.RequestHandlers  Ð created /admin/ping: solr.PingRequestHandler
+2115 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.RequestHandlers  Ð created /admin/ping: solr.PingRequestHandler
+2139 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  Ð xsltCacheLifetimeSeconds=60
+2139 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  Ð xsltCacheLifetimeSeconds=60
+2175 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrCore  Ð Hard AutoCommit: disabled
+2175 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrCore  Ð Soft AutoCommit: disabled
+2227 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  Ð Hard AutoCommit: disabled
+2228 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  Ð Soft AutoCommit: disabled
+2331 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrCore  Ð SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core1/data/index,segFN=segments_1,generation=1}
+2331 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  Ð SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_4,generation=4}
+2332 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.SolrCore  Ð newest commit generation = 1
+2332 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  Ð newest commit generation = 4
+2356 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.search.SolrIndexSearcher  Ð Opening Searcher@4532be10[core1] main
+2415 [searcherExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  Ð [core1] Registered new searcher Searcher@4532be10[core1] main{StandardDirectoryReader(segments_1:1:nrt)}
+2418 [coreLoadExecutor-4-thread-2] INFO  org.apache.solr.core.CoreContainer  Ð registering core: core1
+2513 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  Ð Opening Searcher@29e965e9[core0] main
+2515 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  Ð [core0] Registered new searcher Searcher@29e965e9[core0] main{StandardDirectoryReader(segments_4:11:nrt _2(4.7):C1)}
+2515 [coreLoadExecutor-4-thread-1] INFO  org.apache.solr.core.CoreContainer  Ð registering core: core0
+2518 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  Ð user.dir=/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44
+2518 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  Ð SolrDispatchFilter.init() done
+Jul 8, 2015 5:21:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 8, 2015 5:21:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 8, 2015 5:21:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory orig_ROOT
+Jul 8, 2015 5:21:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 8, 2015 5:21:04 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Jul 8, 2015 5:21:04 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-30080
+Jul 8, 2015 5:21:04 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:30009
+Jul 8, 2015 5:21:04 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/71  config=null
+Jul 8, 2015 5:21:04 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4684 ms
+Jul 8, 2015 5:21:54 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 8, 2015 5:21:54 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/lib/slf4j-log4j12-1.6.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/webapps/ROOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+54716 [http-30080-2] INFO  org.apache.solr.update.processor.LogUpdateProcessor  Ð [core0] webapp=/solr_example path=/update params={wt=javabin&version=2} {add=[id1 (1506175946164535296)]} 0 217
+54770 [http-30080-2] INFO  org.apache.solr.update.UpdateHandler  Ð start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+54871 [http-30080-2] INFO  org.apache.solr.core.SolrCore  Ð SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_4,generation=4}
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_5,generation=5}
+54871 [http-30080-2] INFO  org.apache.solr.core.SolrCore  Ð newest commit generation = 5
+54878 [http-30080-2] INFO  org.apache.solr.search.SolrIndexSearcher  Ð Opening Searcher@69ce835b[core0] main
+54885 [http-30080-2] INFO  org.apache.solr.update.UpdateHandler  Ð end_commit_flush
+54889 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  Ð [core0] Registered new searcher Searcher@69ce835b[core0] main{StandardDirectoryReader(segments_5:15:nrt _3(4.7):C1)}
+54892 [http-30080-2] INFO  org.apache.solr.update.processor.LogUpdateProcessor  Ð [core0] webapp=/solr_example path=/update params={waitSearcher=true&commit=true&wt=javabin&version=2&softCommit=false} {commit=} 0 123
+55068 [http-30080-2] INFO  org.apache.solr.core.SolrCore  Ð [core0] webapp=/solr_example path=/select params={sort=name+asc&q=*:*&wt=javabin&version=2} hits=1 status=0 QTime=155 
+59008 [http-30080-3] INFO  org.apache.solr.update.processor.LogUpdateProcessor  Ð [core0] webapp=/solr_example path=/update params={wt=javabin&version=2} {add=[id1 (1506175950760443904)]} 0 4
+59014 [http-30080-3] INFO  org.apache.solr.update.UpdateHandler  Ð start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+59044 [http-30080-3] INFO  org.apache.solr.core.SolrCore  Ð SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_5,generation=5}
+	commit{dir=/Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/data/index,segFN=segments_6,generation=6}
+59044 [http-30080-3] INFO  org.apache.solr.core.SolrCore  Ð newest commit generation = 6
+59048 [http-30080-3] INFO  org.apache.solr.search.SolrIndexSearcher  Ð Opening Searcher@b07c615[core0] main
+59049 [http-30080-3] INFO  org.apache.solr.update.UpdateHandler  Ð end_commit_flush
+59049 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  Ð [core0] Registered new searcher Searcher@b07c615[core0] main{StandardDirectoryReader(segments_6:19:nrt _4(4.7):C1)}
+59051 [http-30080-3] INFO  org.apache.solr.update.processor.LogUpdateProcessor  Ð [core0] webapp=/solr_example path=/update params={waitSearcher=true&commit=true&wt=javabin&version=2&softCommit=false} {commit=} 0 38
+59059 [http-30080-3] INFO  org.apache.solr.core.SolrCore  Ð [core0] webapp=/solr_example path=/select params={sort=name+asc&q=*:*&wt=javabin&version=2} hits=1 status=0 QTime=2 
+71369 [http-30080-4] INFO  org.apache.solr.core.SolrCore  Ð [core0] webapp=/solr_example path=/select params={q=name:doc1} hits=1 status=0 QTime=11 
+88918 [http-30080-1] INFO  org.apache.solr.core.SolrCore  Ð [core0] webapp=/solr_example path=/select params={q=name:doc1} hits=1 status=0 QTime=1 

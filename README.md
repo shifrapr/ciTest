@@ -65,7 +65,8 @@ http://docs.oracle.com/javaee/5/tutorial/doc/bnakh.html
 
 
 solr:
-~/Documents/code/solr/solr-4.7.2/,
+
+~/Documents/code/solr/solr-4.7.2/, using core0 so far
 can add more instances /Users/spridera/Documents/code/travisCiFromGithub/ciTest/apache-tomcat.6.0.44/conf/Catalina/localhost/
 copy solr_example.
 
@@ -76,11 +77,25 @@ when you start up can go to admin at
 http://localhost:30080/solr_example
 (or whatever the name of the solr instance is)
 
+schema is in /Users/spridera/Documents/code/solr/solr-4.7.2/example/multicore/core0/conf/schema.xml
+https://wiki.apache.org/solr/SchemaXml
+dynamic:
+For example the following dynamic field declaration tells Solr that whenever it sees a field name ending in "_i" which is not an explicitly defined field, then it should dynamically create an integer field with that name...
+    <dynamicField name="*_i"  type="integer"  indexed="true"  stored="true"/>
+
 can query the core (in example there are two of them) with http://localhost:30080/solr_example/core0/select?
 
 Query syntax: http://wiki.apache.org/solr/SolrQuerySyntax
 
-Curl: http://www.alphadevx.com/a/374-Running-Solr-queries-and-updates-via-curl
+Curl:
+query what was loaded:
+
+curl http://localhost:30080/solr_example/core0/select?q=name:doc1
+
+curl http://localhost:30080/solr_example/core0/select?q=name:doc1&id=id1
+
+http://www.alphadevx.com/a/374-Running-Solr-queries-and-updates-via-curl
+could post CSV using curl http://wiki.apache.org/solr/UpdateCSV
 
 SolrJ to read the data:
 http://wiki.apache.org/solr/Solrj#Reading_Data_from_Solr
